@@ -703,6 +703,7 @@ body {
   display: flex;
   gap: 24px;
   flex-direction: column;
+  text-decoration: none;
 }
 
 .company ul,.support ul {
