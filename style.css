@@ -709,8 +709,8 @@ body {
   text-decoration: none;
 }
 
-.company li,
-.support li {
+.company a,
+.support a {
   text-decoration: none;
 }
 
