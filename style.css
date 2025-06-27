@@ -625,7 +625,7 @@ body {
   display: inline-flex;
   padding: 14px 32px;
   max-width: 178px;
-  max-height: 52px; 
+  max-height: 52px;
   background-color: #4caf4f;
   border: none;
   cursor: pointer;
@@ -633,7 +633,7 @@ body {
   justify-content: center;
 }
 
-.demo-btn p{
+.demo-btn p {
   text-align: center;
   color: #ffffff;
   gap: 8px;
@@ -644,10 +644,7 @@ body {
   width: 100%;
   gap: 125px;
   display: flex;
-
 }
-
-
 
 .footer .logo {
   margin-top: 60px;
@@ -658,11 +655,10 @@ body {
 .copyright {
   font-size: 14px;
   line-height: 20px;
-  color: #ffffff; 
-  font-family: 'Verdana', sans-serif;
+  color: #ffffff;
+  font-family: "Verdana", sans-serif;
   margin-left: 165px;
   margin-bottom: 40px;
-  
 }
 
 #copy {
@@ -674,7 +670,6 @@ body {
   gap: 16px;
   margin-top: 40px;
   margin-left: -5px;
-  
 }
 
 .help {
@@ -699,16 +694,23 @@ body {
   font-family: Verdana, sans-serif;
 }
 
-.company,.support {
+.company,
+.support {
   display: flex;
   gap: 24px;
   flex-direction: column;
 }
 
-.company ul,.support ul {
+.company ul,
+.support ul {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  text-decoration: none;
+}
+
+.company li,
+.support li {
   text-decoration: none;
 }
 
@@ -720,11 +722,10 @@ body {
   width: 255px;
 }
 
-#mail::placeholder{
+#mail::placeholder {
   color: #ffffff;
   font-family: Verdana, sans-serif;
 }
-
 
 .input {
   position: relative;
@@ -733,7 +734,7 @@ body {
 
 .input input {
   width: 100%;
-  
+
   border-radius: 6px;
   border: none;
   background-color: #4a565e;
